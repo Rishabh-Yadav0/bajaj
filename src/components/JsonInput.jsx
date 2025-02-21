@@ -23,7 +23,7 @@ export default function JsonInput({ onSubmit }) {
                 rows={5}
                 className="json-input"
             />
-            <button onClick={handleSubmit}>Submit</button>
+            <button onClick={handleSubmit}>Next</button>
         </div>
     );
 }
