@@ -39,7 +39,7 @@ function App() {
 
   return (
     <div className="container">
-      <h1>BFHL API Test</h1>
+      <h1>APITest</h1>
       <JsonInput onSubmit={handleSubmit} />
       
       {response && (
