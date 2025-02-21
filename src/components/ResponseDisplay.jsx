@@ -11,7 +11,7 @@ export default function ResponseDisplay({ response, selectedFields }) {
 
     return (
         <div className="response">
-            <h3>Response:</h3>
+            <h3>Result:</h3>
             <pre>{JSON.stringify(filteredResponse, null, 2)}</pre>
         </div>
     );
